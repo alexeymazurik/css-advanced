@@ -1,3 +1,6 @@
+$phone: "screen and (max-width : 560px)"
+
+
 body
   background-color: #d4e3fc
 
@@ -18,6 +21,7 @@ nav
   overflow: hidden
 
 nav
+
   a
     text-align: center
     height: 50px
@@ -31,6 +35,8 @@ nav
     width: 25%
     text-decoration: none
     font-size: 1.4em
+    @media #{$phone}
+      width: 100%
 
 
 section
@@ -70,7 +76,13 @@ section
   font-weight: bolder
   margin-right: 10px
   display: inline
+  @media #{$phone}
+    display: none
 
+
+.text-dont
+  @media #{$phone}
+    display: none
 
 .labels
   div
@@ -79,10 +91,14 @@ section
 .wrap-left
   margin: 20px
   float: left
+  @media #{$phone}
+    display: none
 
 .wrap-right
   margin: 20px
   float: right
+  @media #{$phone}
+    display: none
 
 .icon
   margin: 5px 15px 0 0
@@ -95,6 +111,8 @@ section
   float: left
   background: grey
   padding: 0
+  @media #{$phone}
+    display: none
 
 .footer-navigation
   span
@@ -119,6 +137,10 @@ section
   box-sizing: border-box
   height: 100px
 
+
+.feedback-vote
+  @media #{$phone}
+    width: 100%
 
 .copyright
   text-align: center

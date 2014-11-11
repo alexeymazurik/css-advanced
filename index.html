@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Advanced Task</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="#home"><img class="icon" src="img/home.png">Home</a>
+                <a href="#faq"><img class="icon" src="img/faq.png">FAQ</a>
+                <a href="#contacts"><img class="icon" src="img/contacts.png">Contacts</a>
+                <a href="#feedback"><img class="icon" src="img/feedback.png">Stay in touch</a>
+            </nav>
+        </header>
+        <section id="home">
+            <p><img class="wrap-left" src="img/csslove.png">Первостепенный текст Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit </p>
+            <p>Второстепенный текст, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</p>
+            <p><img class="wrap-right" src="img/csslove.png">Третий сорт, забиваем полосу Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit </p>
+        </section>
+        <section id="faq">
+            <h2>F.A.Q.</h2>
+            <dl>
+                <dt>Question 1</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec </dd>
+                <dt>Question 2</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque </dd>
+            </dl>
+        </section>
+        <section id="contacts">
+            <h2>Contacts</h2>
+            <img src="img/map.png" class="map"/>
+            <p><img src="img/geo.png" class="icon"><span class="contact-type">Address:</span> serious office outside Seriousville, just by boring lake</p>
+            <p><img src="img/mail.png" class="icon"><span class="contact-type">Email:</span><a href="mailto:company@serious.business">company@serious.business</a></p>
+            <p><img src="img/phone.png" class="icon"><span class="contact-type">Phone:</span><a href="#">888-888-88</a></p>
+        </section>
+        <section id="feedback">
+            <h2>Stay in touch</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" required="">
+                </div>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" required="">
+                </div>
+                <div>
+                    <input type="checkbox" id="spam" checked>
+                    <label for="spam">agree to receive spam</label>
+                </div>
+
+            </form>
+        </section>
+        <footer>
+            <section class="footer-navigation">
+                <span><a href="#home">Home</a></span>
+                <span><a href="#faq">FAQ</a></span>
+                <span><a href="#contacts">Contacts</a></span>
+                <span><a href="#feedback">Stay in touch</a></span>
+            </section>
+            <section class="feedback-vote">
+                <span>Let us hear your feedback</span>
+                <form>
+                    <div class="labels">
+                        <div>
+                            <span>How likely will you advise us?</span>
+                        </div>
+                        <div>
+                            <input type="radio" id="bad" value="bad" name="voting" checked />
+                            <label for="bad">--</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="medium" value="medium" name="voting" />
+                            <label for="medium">-+</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="better" value="better" name="voting" />
+                            <label for="better">+-</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="good" value="good" name="voting" />
+                            <label for="good">++</label>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Vote</button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <section class="copyright">
+                <span>&copy; Copyright 2014 - alexeymazurik</span>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>

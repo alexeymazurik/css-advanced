@@ -45,6 +45,9 @@ section {
 #email {
   margin-left: 30px; }
 
+@media screen and (max-width: 560px) {
+  #feedback {
+    display: none; } }
 #feedback label {
   float: left;
   text-align: right;
@@ -129,7 +132,8 @@ section {
 
 @media screen and (max-width: 560px) {
   .feedback-vote {
-    width: 100%; } }
+    width: 100%;
+    font-size: 1.4em; } }
 
 .copyright {
   text-align: center; }
